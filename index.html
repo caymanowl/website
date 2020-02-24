@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sam Vixie</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>Sam Vixie</h1>
+    </header>
+    <main>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Writing</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#photography">Photography</a></li>
+        </ul>
+      </nav>
+      <div id="primary-content">
+        <img src="photos/cayman.png" />
+      </div>
+    </main>
+    <footer>&copy; 2019 Sam Vixie</footer>
+    <script src="js/magic.js" type="text/javascript"></script>
+  </body>
+
+  <!-- ABOUT -->
+  <template id="about">
+    <div class="thumbnail circle headshot" style="height: 8em; width: 8em;">
+      <img src="photos/headshot.jpg" />
+    </div>
+    <section>
+      <h2>Hi, I'm Sam Vixie!</h2>
+      <p>
+        I'm a technical writer based in the SF Bay Area. I specialize in
+        hardware and software documentation. I have experience with knowledge
+        base articles, user guides, tooltips, hardware setup guides, and
+        everything in between.
+      </p>
+      <p>
+        My passion is learning about complex technologies and writing
+        high-quality documentation that makes them simple and accessible to
+        everyone.
+      </p>
+    </section>
+  </template>
+
+  <!-- PORTFOLIO -->
+  <template id="portfolio">
+    <!-- 2019 -->
+    <h2 class="year"><time datetime="2019">2019</time></h2>
+    <ul class="writing-list">
+      <li>
+        <a
+          href="https://static.ixsystems.co/uploads/2019/09/BSG-Miniv2-2.2_screen.pdf"
+        >
+          FreeNAS Mini and Mini XL Basic Setup Guide (Writing/Photography)</a
+        >
+        <span class="publication hardware-docs">FreeNAS Mini</span>
+      </li>
+    </ul>
+
+    <!-- 2018 -->
+    <h2 class="year"><time datetime="2018">2018</time></h2>
+    <ul class="writing-list">
+      <li>
+        <a
+          href="https://static.ixsystems.co/uploads/2019/09/BSG-ES60-1.5_screen.pdf"
+          >ES60 Expansion Shelf Basic Setup Guide (Writing/Photography)</a
+        >
+        <span class="publication hardware-docs">TrueNAS</span>
+      </li>
+    </ul>
+
+    <!-- 2017 -->
+    <h2 class="year"><time datetime="2017">2017</time></h2>
+    <ul class="writing-list">
+      <li>
+        <a
+          href="https://static.ixsystems.co/uploads/2017/09/FreeNAS_Mini_Motherboard_Removal_and_Replacement_Guide_WEB.pdf"
+        >
+          Motherboard Replacement Guide (Writing/Photography, Collaboration)</a
+        >
+        <span class="publication hardware-docs"
+          >FreeNAS Mini and XL Documentation</span
+        >
+      </li>
+      <li>
+        <a
+          href="https://static.ixsystems.co/uploads/2017/09/FreeNAS_Mini_XL_Network_Upgrade_Kit_WEB3.pdf"
+          >Network Upgrade Guide (Writing/Photography, Collaboration)</a
+        >
+        <span class="publication hardware-docs"
+          >FreeNAS Mini and XL Documentation</span
+        >
+      </li>
+      <li>
+        <a
+          href="https://static.ixsystems.co/uploads/2017/09/FreeNAS_Mini_and_XL_Hardware_Upgrade_Guide_WEB1.pdf"
+          >Hardware Upgrade Guide (Writing/Photography, Collaboration)</a
+        >
+        <span class="publication hardware-docs"
+          >FreeNAS Mini and XL Documentation</span
+        >
+      </li>
+      <li>
+        <a href="https://www.ixsystems.com/blog/library/replace-z-series-node/"
+          >How to Replace a Z Series Node</a
+        >
+        <span class="publication software-docs">TrueNAS Knowledge Base</span>
+      </li>
+      <li>
+        <a
+          href="https://www.ixsystems.com/blog/library/troubleshooting-heat-issues-freenas-mini-mini-xl/"
+          >Troubleshooting Heat Issues on the FreeNAS Mini and Mini XL</a
+        >
+        <span class="publication software-docs">FreeNAS Knowledge Base</span>
+      </li>
+      <li>
+        <a
+          href="https://www.ixsystems.com/blog/library/replacing-degraded-multipath-disk/"
+          >Replacing a Degraded Multipath Disk</a
+        >
+        <span class="publication software-docs">TrueNAS Knowledge Base</span>
+      </li>
+      <li>
+        <a
+          href="https://www.ixsystems.com/blog/library/update-using-full-package-instead-default-delta-package/"
+          >Update using a Full Package</a
+        >
+        <span class="publication software-docs">TrueNAS Knowledge Base</span>
+      </li>
+      <li>
+        <a
+          href="https://www.ixsystems.com/blog/library/make-adding-ip-etchosts-persist-across-reboots/"
+          >How to Make Adding an IP to /etc/hosts Persist Across Reboots
+        </a>
+        <span class="publication software-docs">TrueNAS Knowledge Base</span>
+      </li>
+    </ul>
+
+    <!-- 2016 -->
+    <h2 class="year"><time datetime="2016">2016</time></h2>
+    <ul class="writing-list">
+      <li>
+        <a href="links/freebsd.pdf">Conference Report</a>
+        <span class="publication magazine"> FreeBSD Journal</span>
+      </li>
+    </ul>
+
+    <!-- 2015 -->
+    <h2 class="year"><time datetime="2015">2015</time></h2>
+    <ul class="writing-list">
+      <li>
+        <a
+          href="http://thebonhamline.blogspot.com/2015/07/my-experience-volunteering-at-wildlife.html"
+          >My Experience Volunteering at the Wildlife Rehabilitation Center of
+          Silicon Valley</a
+        >
+        <span class="publication blog">Personal Website</span>
+      </li>
+    </ul>
+
+    <h2 class="year"><time datetime="2014">2014</time></h2>
+    <ul class="writing-list">
+      <li>
+        <a href="links/magic.pdf">Magic in the Mangroves</a>
+        <span class="publication magazine">Key to Cayman</span>
+      </li>
+      <li>
+        <a
+          href="https://www.caymancompass.com/2014/10/29/flamingo-flock-blown-off-course"
+          >Flamingos Flock Blown Off Course</a
+        >
+        <span class="publication newspaper">The Cayman Compass</span>
+      </li>
+      <li>
+        <a
+          href="https://www.caymancompass.com/2014/11/26/Visiting-flamingos-extend-their-stay-in-Grand-Cayman/"
+          >Flamingos Extend their Stay</a
+        >
+        <span class="publication newspaper">The Cayman Compass</span>
+      </li>
+      <li>
+        <a
+          href="https://www.caymancompass.com/2014/05/08/Topless-woman-on-chopping-spree/"
+          >Topless Woman on Chopping Spree</a
+        >
+        <span class="publication newspaper">The Cayman Compass</span>
+      </li>
+      <li>
+        <a
+          href="https://www.caymancompass.com/2014/08/29/Coral-crushed-by-cruise-ship-anchor/"
+          >Coral crushed by Cruise Ship Anchor</a
+        >
+        <span class="publication newspaper">The Cayman Compass</span>
+      </li>
+      <li>
+        <a
+          href="https://www.caymancompass.com/2014/06/13/Health-concerns-raised-over-dump-fires/"
+          >Health Concerns Raised Over Dump Fires</a
+        >
+        <span class="publication newspaper">The Cayman Compass</span>
+      </li>
+      <li>
+        <a
+          href="https://www.caymancompass.com/2014/09/17/-King-tides--wash-over-parts-of-Cayman/"
+          >King Tides Wash Over Parts of Cayman</a
+        >
+        <span class="publication newspaper">The Cayman Compass</span>
+      </li>
+      <li>
+        <a
+          href="https://www.botanic-park.ky/annual-orchid-show-leads-to-a-weekend-in-full-bloom/"
+          >Annual Orchid Show Leads to Weekend in Full Bloom</a
+        >
+        <span class="publication newspaper">The Cayman Compass</span>
+      </li>
+    </ul>
+  </template>
+
+  <!-- RESUME -->
+  <template id="resume">
+    <iframe src="resume.html" class="resume"></iframe>
+  </template>
+
+  <!-- PHOTOGRAPHY -->
+  <template id="photography">
+    <figure>
+      <img class="sample-photo" src="photos/scrubjay.jpeg" />
+      <figcaption>Scrub Jay</figcaption>
+    </figure>
+    <figure>
+      <img class="sample-photo" src="photos/sparrow.jpg" />
+      <figcaption>Golden-crowned Sparrow</figcaption>
+    </figure>
+    <figure>
+      <img class="sample-photo" src="photos/songsparrow.jpeg" />
+      <figcaption>Song Sparrow</figcaption>
+    </figure>
+    <figure>
+      <img class="sample-photo" src="photos/humming.jpeg" />
+      <figcaption>Anna's Hummingbird</figcaption>
+    </figure>
+    <figure>
+      <img class="sample-photo" src="photos/hummer.jpeg" />
+      <figcaption>Anna's Hummingbird in Flight</figcaption>
+    </figure>
+    <figure>
+      <img class="sample-photo" src="photos/anise.jpg" />
+      <figcaption>Anise Swallowtail Caterpillar</figcaption>
+    </figure>
+    <figure>
+      <img class="sample-photo" src="photos/bluewave.jpg" />
+      <figcaption>Blue Wave Butterfly</figcaption>
+    </figure>
+  </template>
+</html>
