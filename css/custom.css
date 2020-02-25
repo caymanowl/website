@@ -212,9 +212,16 @@ footer {
 }
 
 .sample-photo {
-  max-width: 60%;
   margin: 2rem auto;
   display: block;
+}
+
+.sample-photo img {
+  max-width: 70%;}
+
+.sample-photo figcaption {
+  font-style: italic;
+  margin-top: 0.15em;
 }
 
 .resume {
